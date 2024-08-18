@@ -1,0 +1,106 @@
+/* Basic Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #e6f0ff; /* Light blue background */
+}
+
+header {
+    background: #003366; /* Dark blue background */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.project, .internship, .education {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px; /* Rounded corners for a modern look */
+}
+
+.project h3, .internship h3, .education h3 {
+    margin-top: 0;
+    color: #003366; /* Dark blue for headings */
+}
+
+a {
+    color: #0056b3; /* Medium blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #003366; /* Dark blue background */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Contact Section Specific Styling */
+section#contact {
+    padding: 4em; /* Increased padding for more space */
+    margin: 0 auto;
+    max-width: 800px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Rounded corners for consistency */
+    text-align: center; /* Center align text for better layout */
+}
+
+section#contact p {
+    margin: 1em 0; /* Add vertical spacing between paragraphs */
+}
+
+section#contact a {
+    color: #0056b3; /* Medium blue for links */
+    text-decoration: none;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Icon Styling */
+.vk {
+    width: 30px;
+    height: 30px;
+}
